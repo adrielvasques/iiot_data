@@ -6,7 +6,7 @@ This repository contains structured real sensor data from two pieces of equipmen
 
 ### Compressor Data
 The compressor data is stored under two main directories:
-- `UMB`: Contains data from the Basic Measurement Unit (Unidade de Medida Básica), monitoring electrical parameters such as voltage and instantaneous power.
+- `UMB`: Contains data from the Basic Measurement Unit (UMB,known as ”Unidade de Medida Básica” in Portuguese), monitoring electrical parameters such as voltage and instantaneous power.
 - `wiseComp`: Stores data from the Wise-2410 sensor, which is used for vibration monitoring.
 
 ### Pump Data
@@ -19,6 +19,7 @@ The pump data includes information collected from four different sensors:
 ## Data Format
 
 All data are initially stored in raw format and then processed into `.csv` files for easier analysis. Each folder corresponds to a specific sensor with the data structured for optimal retrieval and analysis.
+The available files are a sample of the final result from the proposed Jetson Nano application.
 
 ## Access and Contribution
 
